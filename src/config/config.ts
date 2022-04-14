@@ -11,6 +11,8 @@ const SERVER_PORT = process.env.SERVER_PORT ? Number(process.env.SERVER_PORT) : 
 
 export const config = {
     mongo: {
+        username: MONGO_USERNAME,
+        password: MONGO_PASSWORD,
         url: MONGO_URL
     },
     server: {

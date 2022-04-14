@@ -1,0 +1,19 @@
+{
+    "name": "codechallenges",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.ts",
+    "scripts": {
+        "start": "node build/server.js",
+        "postinstall": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "joi": "^17.6.0",
+        "mongoose": "^6.2.11"
+    }
+}

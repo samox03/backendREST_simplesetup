@@ -7,3 +7,5 @@ router.get('/:group/:id' /*.......*/);
 router.post('/:group/:id' /*.......*/);
 router.get('/' /*.......*/);
 router.get('/:group' /*.......*/);
+
+export = router;
